@@ -9,34 +9,38 @@
   <title>Browser</title>
   <style>
     body{
-    font-size:20px;
-    stylebackground-color:darkblue
+    font-size:18px;
     }
+ .cont{
+    display: flex;
+    justify-content: center;
+ }
+
   </style>
 </head>
 
 <body>
+    <div class="cont">
   <form action="">
   <fieldset >
     <legend>Personal Details:</legend>
     <label for="Salutation" style="padding-left:10px">Salutation</label><br>
     <select name="Salutation" style="margin-left:10px;font-size:14px;padding:2px">
-                                                                     <option value="Mr">--None--</option>
+  <option value="Mr">--None--</option>
   <option value="Mr">Mr.</option>
   <option value="Mrs">Mrs.</option>
   <option value="Ms">Ms.</option>
     </select>
     </br>
     <table cellpadding="5">
-  
     <tr>
       <td>First name:</td>
-      <td><input type="text" name="fname" Style="font-size:20px"></td>
+      <td><input type="text" name="fname" Style="font-size:18px"></td>
     </tr>
     
      <tr>
       <td>Last name:</td>
-      <td><input type="text" name="lname" Style="font-size:20px"></td>
+      <td><input type="text" name="lname" Style="font-size:18px"></td>
     </tr>
        <tr>
       <td>Gender:</td>
@@ -44,15 +48,15 @@
     </tr>
         <tr>
       <td>Email:</td>
-      <td><input type="email" name="email" style="font-size:20px"></td>
+      <td><input type="email" name="email" style="font-size:18px"></td>
     </tr>
        <tr>
       <td>Date of Birth:</td>
-      <td><input type="date" name="dob" placeholder="dd-mm-yyyy" value="" style="font-size:20px;padding:3px;width:95%"></td>
+      <td><input type="date" name="dob" placeholder="dd-mm-yyyy" value="" style="font-size:18px;padding:3px;width:95%"></td>
     </tr>
          <tr>
       <td>Address:</td>
-      <td> <textarea name ="addr" style="font-size:20px;width:97%"> </textarea></td>
+      <td> <textarea name ="addr" style="font-size:18px;width:97%;height:100px"> </textarea></td>
       </tr>
        </table>
   
@@ -63,7 +67,7 @@
       
 
 </form>
-  <script src="script.js"></script>
+</div>
 </body>
 
 </html>
