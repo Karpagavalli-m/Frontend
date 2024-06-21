@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+  <style>
+    body{
+    font-size:20px;
+    stylebackground-color:darkblue
+    }
+  </style>
+</head>
+
+<body>
+  <form action="">
+  <fieldset >
+    <legend>Personal Details:</legend>
+    <label for="Salutation" style="padding-left:10px">Salutation</label><br>
+    <select name="Salutation" style="margin-left:10px;font-size:14px;padding:2px">
+                                                                     <option value="Mr">--None--</option>
+  <option value="Mr">Mr.</option>
+  <option value="Mrs">Mrs.</option>
+  <option value="Ms">Ms.</option>
+    </select>
+    </br>
+    <table cellpadding="5">
+  
+    <tr>
+      <td>First name:</td>
+      <td><input type="text" name="fname" Style="font-size:20px"></td>
+    </tr>
+    
+     <tr>
+      <td>Last name:</td>
+      <td><input type="text" name="lname" Style="font-size:20px"></td>
+    </tr>
+       <tr>
+      <td>Gender:</td>
+      <td><input type="radio" name="gender">Male<input type="radio" name="gender">Female</td>
+    </tr>
+        <tr>
+      <td>Email:</td>
+      <td><input type="email" name="email" style="font-size:20px"></td>
+    </tr>
+       <tr>
+      <td>Date of Birth:</td>
+      <td><input type="date" name="dob" placeholder="dd-mm-yyyy" value="" style="font-size:20px;padding:3px;width:95%"></td>
+    </tr>
+         <tr>
+      <td>Address:</td>
+      <td> <textarea name ="addr" style="font-size:20px;width:97%"> </textarea></td>
+      </tr>
+       </table>
+  
+          <br>
+    <input type="submit" value="Submit" style="display: block; margin: 0 auto;font-size:20px">
+   
+  </fieldset>
+      
+
+</form>
+  <script src="script.js"></script>
+</body>
+
+</html>
